@@ -14,7 +14,7 @@ public class HelloWorldService {
 
 		logger.debug("getDesc() is executed!");
 
-		return "Maven + Spring MVC + Docker Example By Mithun Tech";
+		return "Maven + Spring MVC + Docker. This is a Docker java web application.";
 
 	}
 
@@ -23,7 +23,7 @@ public class HelloWorldService {
 		logger.debug("getTitle() is executed! $name : {}", name);
 
 		if(StringUtils.isEmpty(name)){
-			return "Hello Docker From Mihtun Tech";
+			return "Hello Docker, java web application was running fine.";
 		}else{
 			return "Hello " + name;
 		}
