@@ -40,15 +40,15 @@
 
 	<div class="row">
 		<div class="col-md-8">
-			<h2>Welcome To Mithun Technologies Private Limited, Banglore, Inida ,Karnataka.</h2>
-			<h3>Contact @ +91-9980923226,+91 - 9014996877</h3>
+			<h2>Welcome To Docker, This is a Docker Java-web-application project.</h2>
+			<h3>Application was running fine on docker.</h3>
 		</div>	
 	</div>
 
 
 	<hr>
 	<footer>
-		<p>&copy; Mithun Technologies 2024</p>
+		<p>&copy; Kishore Kumar Chelluri 2025</p>
 	</footer>
 </div>
 
