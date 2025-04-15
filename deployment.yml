@@ -1,18 +1,19 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: javawebapp-ENVIRONMENT-BUILD_NUMBER
+  name: java-web-app
 spec:
-  replicas: 1
+  replicas: 2
+  selector:
+    matchLabels:
+      app: java-web-app
   template:
     metadata:
       labels:
-        app: javawebapp
-        version: "BUILD_NUMBER"
+        app: java-web-app
     spec:
       containers:
-      - name: javawebapp-ENVIRONMENT-BUILD_NUMBER
-        image: IMAGE
-        imagePullPolicy: IfNotPresent
+      - name: java-web-app
+        image: kishorech48/java-web-app:latest1
         ports:
         - containerPort: 8080
